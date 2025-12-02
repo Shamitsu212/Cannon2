@@ -1,6 +1,7 @@
 #include "draw_target.h"
 #include "draw_circle.h"
 
+// Рисование мишени
 void drawDoubleTarget(Display* dpy, Drawable dr, GC gc, const Target& t) {
     int inner = int(t.radius * 0.6);
 

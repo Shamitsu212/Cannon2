@@ -1,5 +1,6 @@
 #pragma once
 
+// Структура взрыва
 struct Explosion {
     double x, y;
     double radius;
